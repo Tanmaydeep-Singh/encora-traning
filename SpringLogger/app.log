@@ -1,0 +1,182 @@
+2025-09-02T15:08:26.585+05:30  INFO 4428 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Starting SpringLoggerApplication using Java 21.0.7 with PID 4428 (C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger\target\classes started by Tanmaydeep.Singh in C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger)
+2025-09-02T15:08:26.586+05:30 DEBUG 4428 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-02T15:08:26.587+05:30  INFO 4428 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-02T15:08:26.998+05:30  INFO 4428 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Started SpringLoggerApplication in 0.775 seconds (process running for 1.272)
+2025-09-02T15:16:02.405+05:30  INFO 10500 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Starting SpringLoggerApplication using Java 21.0.7 with PID 10500 (C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger\target\classes started by Tanmaydeep.Singh in C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger)
+2025-09-02T15:16:02.406+05:30 DEBUG 10500 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-02T15:16:02.407+05:30  INFO 10500 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-02T15:16:02.718+05:30  WARN 10500 --- [SpringLogger] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springLoggerApplication': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.service.LogService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-02T15:16:02.723+05:30  INFO 10500 --- [SpringLogger] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-02T15:16:02.740+05:30 ERROR 10500 --- [SpringLogger] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.springLogger.SpringLoggerApplication required a bean of type 'com.example.service.LogService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.LogService' in your configuration.
+
+2025-09-02T15:24:27.456+05:30  INFO 5712 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Starting SpringLoggerApplication using Java 21.0.7 with PID 5712 (C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger\target\classes started by Tanmaydeep.Singh in C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger)
+2025-09-02T15:24:27.457+05:30 DEBUG 5712 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-02T15:24:27.458+05:30  INFO 5712 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-02T15:24:28.171+05:30  INFO 5712 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-02T15:24:28.193+05:30  INFO 5712 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2025-09-02T15:24:28.702+05:30  INFO 5712 --- [SpringLogger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-02T15:24:28.717+05:30  INFO 5712 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-02T15:24:28.717+05:30  INFO 5712 --- [SpringLogger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-02T15:24:28.774+05:30  INFO 5712 --- [SpringLogger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-02T15:24:28.774+05:30  INFO 5712 --- [SpringLogger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1270 ms
+2025-09-02T15:24:28.951+05:30  INFO 5712 --- [SpringLogger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-02T15:24:29.000+05:30  INFO 5712 --- [SpringLogger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-02T15:24:29.032+05:30  INFO 5712 --- [SpringLogger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-02T15:24:29.294+05:30  INFO 5712 --- [SpringLogger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-02T15:24:29.323+05:30  INFO 5712 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-02T15:24:29.682+05:30  INFO 5712 --- [SpringLogger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@102af1bb
+2025-09-02T15:24:29.684+05:30  INFO 5712 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-02T15:24:29.725+05:30  WARN 5712 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-02T15:24:29.726+05:30  WARN 5712 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-09-02T15:24:29.742+05:30  INFO 5712 --- [SpringLogger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-02T15:24:30.059+05:30  INFO 5712 --- [SpringLogger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-02T15:24:30.066+05:30  INFO 5712 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:24:30.073+05:30  WARN 5712 --- [SpringLogger] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springLoggerApplication': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.service.LogService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-02T15:24:30.073+05:30  INFO 5712 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:24:30.075+05:30  INFO 5712 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-02T15:24:30.089+05:30  INFO 5712 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-02T15:24:30.091+05:30  INFO 5712 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-02T15:24:30.103+05:30  INFO 5712 --- [SpringLogger] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-02T15:24:30.121+05:30 ERROR 5712 --- [SpringLogger] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.springLogger.SpringLoggerApplication required a bean of type 'com.example.service.LogService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.LogService' in your configuration.
+
+2025-09-02T15:25:06.716+05:30  INFO 7072 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Starting SpringLoggerApplication using Java 21.0.7 with PID 7072 (C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger\target\classes started by Tanmaydeep.Singh in C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger)
+2025-09-02T15:25:06.718+05:30 DEBUG 7072 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-02T15:25:06.719+05:30  INFO 7072 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-02T15:25:07.358+05:30  INFO 7072 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-02T15:25:07.379+05:30  INFO 7072 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-09-02T15:25:07.829+05:30  INFO 7072 --- [SpringLogger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-02T15:25:07.840+05:30  INFO 7072 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-02T15:25:07.841+05:30  INFO 7072 --- [SpringLogger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-02T15:25:07.896+05:30  INFO 7072 --- [SpringLogger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-02T15:25:07.896+05:30  INFO 7072 --- [SpringLogger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1133 ms
+2025-09-02T15:25:08.047+05:30  INFO 7072 --- [SpringLogger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-02T15:25:08.090+05:30  INFO 7072 --- [SpringLogger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-02T15:25:08.121+05:30  INFO 7072 --- [SpringLogger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-02T15:25:08.383+05:30  INFO 7072 --- [SpringLogger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-02T15:25:08.412+05:30  INFO 7072 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-02T15:25:08.740+05:30  INFO 7072 --- [SpringLogger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38667005
+2025-09-02T15:25:08.742+05:30  INFO 7072 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-02T15:25:08.787+05:30  WARN 7072 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-02T15:25:08.788+05:30  WARN 7072 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-09-02T15:25:08.806+05:30  INFO 7072 --- [SpringLogger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-02T15:25:09.109+05:30  INFO 7072 --- [SpringLogger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-02T15:25:09.114+05:30  INFO 7072 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:25:09.121+05:30  WARN 7072 --- [SpringLogger] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springLoggerApplication': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.service.LogService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-02T15:25:09.122+05:30  INFO 7072 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:25:09.124+05:30  INFO 7072 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-02T15:25:09.170+05:30  INFO 7072 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-02T15:25:09.172+05:30  INFO 7072 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-02T15:25:09.183+05:30  INFO 7072 --- [SpringLogger] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-02T15:25:09.201+05:30 ERROR 7072 --- [SpringLogger] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.springLogger.SpringLoggerApplication required a bean of type 'com.example.service.LogService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.LogService' in your configuration.
+
+2025-09-02T15:26:37.112+05:30  INFO 13860 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Starting SpringLoggerApplication using Java 21.0.7 with PID 13860 (C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger\target\classes started by Tanmaydeep.Singh in C:\Users\Tanmaydeep.Singh\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\SpringLogger)
+2025-09-02T15:26:37.113+05:30 DEBUG 13860 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-02T15:26:37.114+05:30  INFO 13860 --- [SpringLogger] [main] c.e.s.SpringLoggerApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-02T15:26:37.688+05:30  INFO 13860 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-02T15:26:37.709+05:30  INFO 13860 --- [SpringLogger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2025-09-02T15:26:38.131+05:30  INFO 13860 --- [SpringLogger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-02T15:26:38.145+05:30  INFO 13860 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-02T15:26:38.146+05:30  INFO 13860 --- [SpringLogger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-02T15:26:38.201+05:30  INFO 13860 --- [SpringLogger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-02T15:26:38.201+05:30  INFO 13860 --- [SpringLogger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2025-09-02T15:26:38.364+05:30  INFO 13860 --- [SpringLogger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-02T15:26:38.410+05:30  INFO 13860 --- [SpringLogger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-02T15:26:38.444+05:30  INFO 13860 --- [SpringLogger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-02T15:26:38.711+05:30  INFO 13860 --- [SpringLogger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-02T15:26:38.737+05:30  INFO 13860 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-02T15:26:39.098+05:30  INFO 13860 --- [SpringLogger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b95de
+2025-09-02T15:26:39.100+05:30  INFO 13860 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-02T15:26:39.151+05:30  WARN 13860 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-02T15:26:39.152+05:30  WARN 13860 --- [SpringLogger] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-09-02T15:26:39.168+05:30  INFO 13860 --- [SpringLogger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-02T15:26:39.493+05:30  INFO 13860 --- [SpringLogger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-02T15:26:39.498+05:30  INFO 13860 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:26:39.507+05:30  WARN 13860 --- [SpringLogger] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springLoggerApplication': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.service.LogService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-02T15:26:39.508+05:30  INFO 13860 --- [SpringLogger] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-02T15:26:39.510+05:30  INFO 13860 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-02T15:26:39.568+05:30  INFO 13860 --- [SpringLogger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-02T15:26:39.570+05:30  INFO 13860 --- [SpringLogger] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-09-02T15:26:39.582+05:30  INFO 13860 --- [SpringLogger] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-02T15:26:39.599+05:30 ERROR 13860 --- [SpringLogger] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.springLogger.SpringLoggerApplication required a bean of type 'com.example.service.LogService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.service.LogService' in your configuration.
+
