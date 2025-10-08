@@ -45,6 +45,9 @@ public class SecurityConfig {
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 	    return http
 	        .authorizeHttpRequests(auth -> {
+	        	auth.requestMatchers("/admin-dashboard").hasRole("ADMIN");
+	        	auth.requestMatchers("/user-dashboard").hasRole("USER");
+
 	            auth.anyRequest().authenticated(); 
 	        })
 	        .formLogin(form -> {
